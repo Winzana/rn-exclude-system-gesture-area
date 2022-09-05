@@ -46,6 +46,7 @@
   },
   "homepage": "https://github.com/Winzana/rn-exclude-system-gesture-area#readme",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
