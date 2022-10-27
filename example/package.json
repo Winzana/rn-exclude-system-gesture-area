@@ -1,6 +1,6 @@
 {
-  "name": "@winzana/exclude-system-gesture-area-example",
-  "description": "Example app for @winzana/exclude-system-gesture-area",
+  "name": "@wz-mobile/exclude-system-gesture-area-example",
+  "description": "Example app for @wz-mobile/exclude-system-gesture-area",
   "version": "0.0.1",
   "private": true,
   "scripts": {

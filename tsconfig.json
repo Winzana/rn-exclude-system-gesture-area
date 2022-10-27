@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@winzana/exclude-system-gesture-area": ["./src/index"]
+      "@wz-mobile/exclude-system-gesture-area": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

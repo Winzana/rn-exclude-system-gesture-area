@@ -17,13 +17,13 @@ component.
 ## Installation
 
 ```sh
-yarn add @winzana/exclude-system-gesture-area
+yarn add @wz-mobile/exclude-system-gesture-area
 ```
 
 ## Usage
 
 ```js
-import { ExcludeSystemGestureAreaView } from '@winzana/exclude-system-gesture-area';
+import { ExcludeSystemGestureAreaView } from '@wz-mobile/exclude-system-gesture-area';
 
 // ...
 
