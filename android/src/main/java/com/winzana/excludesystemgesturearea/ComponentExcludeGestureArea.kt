@@ -19,14 +19,14 @@ class ComponentExcludeGestureArea(context: Context, private val callerContext: R
     if(changed){ rects.clear();}
     rects.add(Rect(left,  top+40, right,  bottom+40))
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-      callerContext.currentActivity?.window?.decorView?.rootView?.systemGestureExclusionRects = rects
+      this.systemGestureExclusionRects = rects
     }
   }
 
   override fun onDraw(canvas: Canvas?) {
     super.onDraw(canvas)
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-      callerContext.currentActivity?.window?.decorView?.rootView?.systemGestureExclusionRects = rects
+      this.systemGestureExclusionRects = rects
     }
   }
 }

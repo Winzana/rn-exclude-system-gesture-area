@@ -1,6 +1,6 @@
 {
   "name": "@winzana/rn-exclude-system-gesture-area",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "🔧 Provide component to exclude component area from navigation system gesture.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
